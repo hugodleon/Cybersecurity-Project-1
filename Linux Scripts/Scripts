@@ -1,1 +1,8 @@
-
+sudo apt install docker.io
+sudo docker pull cyberxsecurity/ansible
+docker run -ti cyberxsecurity/ansible:latest bash
+sudo docker container list -a
+sudo docker start "unique docker container name"
+sudo docker start "unique ansible container name"
+sudo docker ps
+sudo docker attach "unique ansible container name"
